@@ -1,0 +1,68 @@
+
+
+
+#modal
+{
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    background-color: #cfe3ff;
+    min-width: 60%;
+    height: 40%;
+    border-radius: 10px;
+    padding: 10px;
+    border-style: solid;
+    border-color: #052c66;
+    border-width: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#modal #texto {
+    font-size: 80px;
+    cursor: pointer;
+    padding: 0;
+    
+
+}
+
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    font-size: 30px;
+}
+
+nav div {
+    padding: 10px;
+    border-radius: 5px;
+    color:  #f8f8f8;
+   
+}
+
+
+
+
+@keyframes flashBien {
+  0%   { background-color: green; }
+  100% { background-color: white; }
+}
+
+@keyframes flashMal {
+  0%   { background-color: rgb(247, 27, 7); }
+  100% { background-color: white; }
+}
+
+.flashBien {
+  animation: flashBien 1s ease;
+}
+
+
+.flashMal {
+  animation: flashMal 1s ease;
+}
