@@ -11,10 +11,16 @@
 <body>
 
     <nav> 
-        <div style="background-color: green;"> Correcto: 0  </div>
+        <div  class = "counter" style="background-color: green;" id="correcto"> Correcto: 0  </div>
+        <div id="titulo">
+               <h1>Juego dinamico de tildes :)</h1>
+               <p>Si la palabra tiene tilde, haz click en la letra que tiene la tilde. En lo contrario, haz click en "No lleva tilde"</p>
+
+        </div>
+        
 
 
-        <div style="background-color: red;"> Incorrecto: 0  </div>
+        <div class = "counter" style="background-color: red;" id="incorrecto"> Incorrecto: 0  </div>
 
 
 
@@ -22,7 +28,7 @@
     <div id="modal"> 
 
 
-        <div id="texto"> Acentuacion</div>
+        <div id="texto"> </div>
 
 
         <div> 
@@ -31,6 +37,36 @@
 
       
     </div>
+
+    <div style="display: flex; justify-content: space-between;"> 
+        <div class="bloque" id="lista">
+            <h4> Lista que has tenido mal </h4>
+
+            <ul id="palabrasMalas">
+            </ul>
+
+         </div>
+
+
+        <div class="bloque" id="recursos">
+            <h4> Información</h4>
+            <p>Esta pagina fue creada por Marina Molina para su clase de español (Alvaro porfa un 7). El codigo es abierto y se puede encontrar en <a href="https://github.com/marinamolinat/Ejercicio-de-tildes-"> aca. </a> </p>
+            <h4> Recursos</h4>
+            <p>Estos son algunos recursos para aprender a acentuar en español.</p>
+           <ul>
+  <li><a href="https://www.diccionariodedudas.com/palabras-agudas-graves-esdrujulas-y-sobreesdrujulas/">Diccionario de Dudas - Agudas, graves, esdrújulas y sobreesdrújulas</a></li>
+  <li><a href="https://www.significados.com/palabras-agudas-graves-y-esdrujulas/">Significados.com - Qué son y cuándo llevan tilde</a></li>
+  <li><a href="https://www.ejemplos.co/100-ejemplos-de-palabras-agudas-graves-y-esdrujulas/">Ejemplos.co - 100 ejemplos de cada tipo</a></li>
+</ul>
+
+            
+
+        </div>
+    
+
+
+    </div>
+    
 
 
 

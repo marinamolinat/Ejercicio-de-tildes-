@@ -38,16 +38,40 @@ nav {
     font-size: 30px;
 }
 
-nav div {
+nav .counter {
     padding: 10px;
     border-radius: 5px;
     color:  #f8f8f8;
    
 }
+.bloque {
+    margin: 20px;
+    width: 15%;
+    background-color: #cfe3ff;
+    padding: 10px;
+    border-radius: 10px;
+    min-height: 300px;
+    border-style: solid;
+    border-color: #052c66;
+    border-width: 10px;
+}
+#titulo {
+    text-align: center;
+    width: 70%;
+}
+
+#titulo h1 {
+    font-size: 50px;
+}
+
+#titulo p {
+    font-size: 20px;
+}
 
 
-
-
+h3, h4 {
+    text-align: center;
+}
 @keyframes flashBien {
   0%   { background-color: green; }
   100% { background-color: white; }
